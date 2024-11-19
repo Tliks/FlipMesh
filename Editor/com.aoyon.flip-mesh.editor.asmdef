@@ -1,0 +1,19 @@
+{
+    "name": "com.aoyon.flip_mesh.editor",
+    "rootNamespace": "",
+    "references": [
+        "nadena.dev.ndmf",
+        "com.aoyon.flip_mesh.runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
