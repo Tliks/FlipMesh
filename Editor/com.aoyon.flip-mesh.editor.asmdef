@@ -3,6 +3,7 @@
     "rootNamespace": "",
     "references": [
         "nadena.dev.ndmf",
+        "nadena.dev.modular-avatar.core",
         "com.aoyon.flip_mesh.runtime"
     ],
     "includePlatforms": [

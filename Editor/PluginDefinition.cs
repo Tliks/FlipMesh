@@ -18,7 +18,9 @@ namespace com.aoyon.flip_mesh
                 InPhase(BuildPhase.Transforming);
 
             sequence
-            .Run(FlipMeshPass.Instance)
+            .Run("Flip Mesh", ctx => {
+                FlipMeshProcessor.Apply(ctx.AvatarRootObject);
+            })
             .PreviewingWith(new FlipMeshPreview());
         }
     }
